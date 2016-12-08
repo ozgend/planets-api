@@ -15,7 +15,7 @@ namespace SolarSystem.Planets.Controllers
             _planetService = planetService;
         }
 
-
+        [Route("")]
         [Route("list")]
         [HttpGet]
         public List<Planet> List()
@@ -24,12 +24,5 @@ namespace SolarSystem.Planets.Controllers
             return list;
         }
 
-        [Route("create")]
-        [HttpGet]
-        public bool CreateInitial()
-        {
-            _planetService.CreateInitialData();
-            return true;
-        }
     }
 }
