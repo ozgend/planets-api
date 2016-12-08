@@ -1,5 +1,5 @@
 {
-  "name": "solar-system-planets-api",
+  "name": "planets-api",
   "version": "1.0.0",
   "description": "planets api",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozgend/solar-system-planets-api.git"
+    "url": "git+https://github.com/ozgend/planets-api.git"
   },
   "author": "denolk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ozgend/solar-system-planets-api/issues"
+    "url": "https://github.com/ozgend/planets-api/issues"
   },
-  "homepage": "https://github.com/ozgend/solar-system-planets-api#readme",
+  "homepage": "https://github.com/ozgend/planets-api#readme",
   "dependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
