@@ -1,1 +1,1 @@
-grunt
+web: npm start
