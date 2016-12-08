@@ -8,5 +8,5 @@ if [ -d $artifactsFolder ]; then
 rm -R $artifactsFolder
 fi
 
-npm install
-grunt
+dotnet restore src/SolarSystem.Planets && dotnet build src/SolarSystem.Planets
+dotnet publish ./src/SolarSystem.Planets -c Release -o ./dist

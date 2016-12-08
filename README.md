@@ -8,6 +8,4 @@ backend for [planets app](https://solar-system-planets.herokuapp.com)
 ---
 
 ## Build & Run
-    git clone
-    npm install
-    grunt
+    **todo**
