@@ -10,7 +10,7 @@ namespace SolarSystem.Services
         private IMongoClient _client;
         private IMongoDatabase _database;
 
-        private const string MongoDbUri = "mongodb://aroot:aroot@ds129028.mlab.com:29028/solar-system";
+        private const string MongoDbUri = "mongodb://read:read@ds129028.mlab.com:29028/solar-system";
         private const string DatabaseName = "solar-system";
         private const string CollectionName = "space-objects";
 
