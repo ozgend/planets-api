@@ -27,6 +27,13 @@ namespace SolarSystem
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowCors",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials()
+                );
+            });
+
             RegisterServices(services);
             services.AddMvc();
         }
@@ -36,6 +43,7 @@ namespace SolarSystem
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            app.UseCors("AllowCors");
             app.UseStaticFiles();
             app.UseMvc();
         }
