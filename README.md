@@ -1,4 +1,6 @@
-# Solar System Api
+# Solar System Api 
+
+[![Build Status](https://travis-ci.org/ozgend/solar-system-api.svg?branch=master)](https://travis-ci.org/ozgend/solar-system-api)
 
 backend for [planets app](https://solar-system-planets.herokuapp.com)
 
