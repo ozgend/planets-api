@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SolarSystem.Planets.Controllers
+namespace SolarSystem.Controllers
 {
     [Route("")]
     public class HomeController : Controller

@@ -1,8 +1,8 @@
-# Planets Api
+# Solar System Api
 
 backend for [planets app](https://solar-system-planets.herokuapp.com)
 
-[live demo](https://solar-system-planets-api.herokuapp.com/api/planets/list)
+[live demo](https://solar-system-api.herokuapp.com/api/space/planets)
 
 ##Todo
  - use nasa jpl/horizon or pds
@@ -10,6 +10,6 @@ backend for [planets app](https://solar-system-planets.herokuapp.com)
 ---
 
 ## Build & Run
-    cd src\SolarSystem.Planets
+    cd src\SolarSystem
     dotnet restore
     dotnet run 

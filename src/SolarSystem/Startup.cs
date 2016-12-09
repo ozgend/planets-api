@@ -5,10 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-using SolarSystem.Planets.Services;
-using SolarSystem.Planets.Services.Contracts;
+using SolarSystem.Services;
+using SolarSystem.Services.Contracts;
 
-namespace SolarSystem.Planets
+namespace SolarSystem
 {
     public class Startup
     {
@@ -42,7 +42,7 @@ namespace SolarSystem.Planets
 
         private void RegisterServices(IServiceCollection services)
         {
-            services.AddSingleton<IPlanetService, PlanetService>();
+            services.AddSingleton<ISpaceObjectService, SpaceObjectService>();
         }
     }
 }
