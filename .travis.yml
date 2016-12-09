@@ -1,0 +1,12 @@
+language: csharp
+
+matrix:
+  include:
+    - os: linux # Ubuntu 14.04
+      dist: trusty
+      sudo: required
+      dotnet: 1.0.0-preview2-003131
+
+script:
+  - dotnet restore src/SolarSystem && dotnet build src/SolarSystem
+  - dotnet publish ./src/SolarSystem -c Release -o ./dist
